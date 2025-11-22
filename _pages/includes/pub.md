@@ -136,20 +136,26 @@ Xin Zhang, Xue Yang, **Yuxuan Li**, Jian Yang, Ming-Ming Cheng, Xiang Li
 
 ---
 
-### [DenseVLM: A Retrieval and Decoupled Alignment Framework for Open-Vocabulary Dense Prediction](https://arxiv.org/abs/2412.06244)
-**Preprint**, ***2024***  
+### [Unbiased Region-Language Alignment for Open-Vocabulary Dense Prediction](https://arxiv.org/abs/2412.06244)
+**ICCV**, ***2025***  
 Yunheng Li, **Yuxuan Li**, Quansheng Zeng, Wenhai Wang, Qibin Hou, Ming-Ming Cheng  
 [[**Paper**]](https://arxiv.org/abs/2412.06244)  
 
 ---
 
 ### [Strip R-CNN: Large Strip Convolution for Remote Sensing Object Detection](https://arxiv.org/abs/2501.03775)
-**Preprint**, ***2024***  
+**AAAI**, ***2026***  
 Xinbin Yuan, Zhaohui Zheng, **Yuxuan Li**, Xialei Liu, Li Liu, Xiang Li, Qibin Hou, Ming-Ming Cheng  
 [[**Paper**]](https://arxiv.org/abs/2501.03775)  
 
 ---
 
+### [DenoDet V2: Phase-Amplitude Cross Denoising for SAR Object Detection](https://arxiv.org/pdf/2508.09392)
+**AAAI**, ***2026***  
+Kang Ni, Minrui Zou, **Yuxuan Li**, Xiang Li, Kehua Guo, Ming-Ming Cheng, Yimian Dai 
+[[**Paper**]](https://arxiv.org/pdf/2508.09392)  
+
+---
 ### [GrokLST: Towards High-Resolution Benchmark and Toolkit for Land Surface Temperature Downscaling](https://arxiv.org/abs/2409.19835)
 **Preprint**, ***2024***  
 Qun Dai, Chunyang Yuan, Yimian Dai, **Yuxuan Li**, Xiang Li, Kang Ni, Jianhui Xu, Xiangbo Shu, Jian Yang  
