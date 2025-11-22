@@ -16,18 +16,6 @@
 [[**Demo Video**]](https://www.bilibili.com/video/BV1Wu4y137Zz/?share_source=copy_web&vd_source=b37c2bd32246c553d6c1713fc1d9f29f) 
 [[**Code**]](https://github.com/zcablii/LSKNet)[![](https://img.shields.io/github/stars/zcablii/LSKNet?style=social)](https://github.com/zcablii/LSKNet)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/strip-r-cnn-large-strip-convolution-for/oriented-object-detection-on-dota-1-5)](https://paperswithcode.com/sota/oriented-object-detection-on-dota-1-5?p=strip-r-cnn-large-strip-convolution-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/strip-r-cnn-large-strip-convolution-for/object-detection-in-aerial-images-on-dota-1)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-dota-1?p=strip-r-cnn-large-strip-convolution-for)
-[![PWC](http://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/object-detection-in-aerial-images-on-dota-1)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-dota-1?p=lsknet-a-foundation-lightweight-backbone-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/large-selective-kernel-network-for-remote/oriented-object-detection-on-dota-1-0)](https://paperswithcode.com/sota/oriented-object-detection-on-dota-1-0?p=large-selective-kernel-network-for-remote)
-[![PWC](http://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/large-selective-kernel-network-for-remote/object-detection-in-aerial-images-on-hrsc2016)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-hrsc2016?p=large-selective-kernel-network-for-remote)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/semantic-segmentation-on-uavid)](https://paperswithcode.com/sota/semantic-segmentation-on-uavid?p=lsknet-a-foundation-lightweight-backbone-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/semantic-segmentation-on-isprs-vaihingen)](https://paperswithcode.com/sota/semantic-segmentation-on-isprs-vaihingen?p=lsknet-a-foundation-lightweight-backbone-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/semantic-segmentation-on-isprs-potsdam)](https://paperswithcode.com/sota/semantic-segmentation-on-isprs-potsdam?p=lsknet-a-foundation-lightweight-backbone-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/large-selective-kernel-network-for-remote/semantic-segmentation-on-loveda)](https://paperswithcode.com/sota/semantic-segmentation-on-loveda?p=large-selective-kernel-network-for-remote)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/change-detection-on-s2looking)](https://paperswithcode.com/sota/change-detection-on-s2looking?p=lsknet-a-foundation-lightweight-backbone-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/change-detection-on-levir-cd)](https://paperswithcode.com/sota/change-detection-on-levir-cd?p=lsknet-a-foundation-lightweight-backbone-for)
-
 
 LSKNet can dynamically adjust its large spatial receptive field to better model the ranging context of various categories of objects in remote sensing scenarios.
 
@@ -52,6 +40,46 @@ The APF-GAN model improves GAN-based image segmentation, surpassing GauGAN and w
 
 ## Conference
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/pub/AAAI_2026_SM3Det.png' alt="sym" width="350">
+</div></div>
+<div class='paper-box-text' markdown="1">
+
+[SM3Det: A Unified Model for Multi-Modal Remote Sensing Object Detection **(AAAI 2026 Oral)**](https://arxiv.org/abs/2412.20665)
+
+**Yuxuan Li**, Xiang Li\#, Yunheng Li, Yicheng Zhang, Yimian Dai, Qibin Hou, Ming-Ming Cheng and Jian Yang\#
+
+[[**Paper**]](https://arxiv.org/abs/2412.20665)
+[[**BibTex**]](./resources/bibtex/AAAI_2026_SM3Det.txt) 
+[[**Code**]](https://github.com/zcablii/SM3Det)[![](https://img.shields.io/github/stars/zcablii/SM3Det?style=social)](https://github.com/zcablii/SM3Det)
+[[**知乎专栏**]](https://zhuanlan.zhihu.com/p/15685945444)
+
+This paper introduces SM3Det, a unified remote sensing model designed to handle multi-modal, multi-task object detection by leveraging a sparse Mixture-of-Experts backbone and dynamic optimization.
+
+
+</div>
+</div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/pub/NeurIPS_2024_SARDet-100K.png' alt="sym" width="350">
+</div></div>
+<div class='paper-box-text' markdown="1">
+
+[SARDet-100K: Towards Open-Source Benchmark and ToolKit for Large-Scale SAR Object Detection **(NeurIPS 2024 Spotlight)**](https://arxiv.org/abs/2403.06534)
+
+**Yuxuan Li**, Xiang Li\#, Weijie Li, Qibin Hou, Li Liu, Ming-Ming Cheng, Jian Yang\#
+
+[[**Paper**]](https://arxiv.org/pdf/2403.06534)
+[[**BibTex**]](./resources/bibtex/NeurIPS_2024_Sardet.txt) 
+[[**Code**]](https://github.com/zcablii/SARDet_100K)[![](https://img.shields.io/github/stars/zcablii/SARDet_100K?style=social)](https://github.com/zcablii/SARDet_100K)
+[[**知乎专栏**]](https://zhuanlan.zhihu.com/p/686785188)
+
+
+SARDet-100K, the first large-scale multi-class SAR object detection dataset, along with the proposed MSFA pretraining framework, addresses domain and model disparities, significantly improving SAR object detection performance and advancing the field.
+
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images/pub/ICCV_2023_LSKNet.png' alt="sym" width="350"  >
 </div></div>
 <div class='paper-box-text' markdown="1">
@@ -67,43 +95,12 @@ The APF-GAN model improves GAN-based image segmentation, surpassing GauGAN and w
 [[**Code**]](https://github.com/zcablii/LSKNet)[![](https://img.shields.io/github/stars/zcablii/LSKNet?style=social)](https://github.com/zcablii/LSKNet)
 [[**知乎专栏**]](https://zhuanlan.zhihu.com/p/614449075)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/strip-r-cnn-large-strip-convolution-for/oriented-object-detection-on-dota-1-5)](https://paperswithcode.com/sota/oriented-object-detection-on-dota-1-5?p=strip-r-cnn-large-strip-convolution-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/strip-r-cnn-large-strip-convolution-for/object-detection-in-aerial-images-on-dota-1)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-dota-1?p=strip-r-cnn-large-strip-convolution-for)
-[![PWC](http://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/object-detection-in-aerial-images-on-dota-1)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-dota-1?p=lsknet-a-foundation-lightweight-backbone-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/large-selective-kernel-network-for-remote/oriented-object-detection-on-dota-1-0)](https://paperswithcode.com/sota/oriented-object-detection-on-dota-1-0?p=large-selective-kernel-network-for-remote)
-[![PWC](http://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/large-selective-kernel-network-for-remote/object-detection-in-aerial-images-on-hrsc2016)](https://paperswithcode.com/sota/object-detection-in-aerial-images-on-hrsc2016?p=large-selective-kernel-network-for-remote)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/semantic-segmentation-on-uavid)](https://paperswithcode.com/sota/semantic-segmentation-on-uavid?p=lsknet-a-foundation-lightweight-backbone-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/semantic-segmentation-on-isprs-vaihingen)](https://paperswithcode.com/sota/semantic-segmentation-on-isprs-vaihingen?p=lsknet-a-foundation-lightweight-backbone-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/semantic-segmentation-on-isprs-potsdam)](https://paperswithcode.com/sota/semantic-segmentation-on-isprs-potsdam?p=lsknet-a-foundation-lightweight-backbone-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/large-selective-kernel-network-for-remote/semantic-segmentation-on-loveda)](https://paperswithcode.com/sota/semantic-segmentation-on-loveda?p=large-selective-kernel-network-for-remote)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/change-detection-on-s2looking)](https://paperswithcode.com/sota/change-detection-on-s2looking?p=lsknet-a-foundation-lightweight-backbone-for)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/lsknet-a-foundation-lightweight-backbone-for/change-detection-on-levir-cd)](https://paperswithcode.com/sota/change-detection-on-levir-cd?p=lsknet-a-foundation-lightweight-backbone-for)
-
 
 LSKNet can dynamically adjust its large spatial receptive field to better model the ranging context of various categories of objects in remote sensing scenarios.
 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/pub/NeurIPS_2024_SARDet-100K.png' alt="sym" width="350">
-</div></div>
-<div class='paper-box-text' markdown="1">
-
-[SARDet-100K: Towards Open-Source Benchmark and ToolKit for Large-Scale SAR Object Detection **(NeurIPS 2024 Spotlight)**](https://arxiv.org/abs/2403.06534)
-
-**Yuxuan Li**, Xiang Li\#, Weijie Li, Qibin Hou, Li Liu, Ming-Ming Cheng, Jian Yang\#
-
-[[**Paper**]](https://arxiv.org/pdf/2403.06534)
-[[**BibTex**]](./resources/bibtex/NeurIPS_2024_Sardet.txt) 
-[[**Code**]](https://github.com/zcablii/SARDet_100K)[![](https://img.shields.io/github/stars/zcablii/SARDet_100K?style=social)](https://github.com/zcablii/SARDet_100K)
-[[**知乎专栏**]](https://zhuanlan.zhihu.com/p/686785188)
-
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/sardet-100k-towards-open-source-benchmark-and/2d-object-detection-on-sardet-100k)](https://paperswithcode.com/sota/2d-object-detection-on-sardet-100k?p=sardet-100k-towards-open-source-benchmark-and)
-
-SARDet-100K, the first large-scale multi-class SAR object detection dataset, along with the proposed MSFA pretraining framework, addresses domain and model disparities, significantly improving SAR object detection performance and advancing the field.
-
-</div>
-</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACCV 2022</div><img src='images/pub/ACCV_2022_SGE.png' alt="sym" width="350">
 </div></div>
@@ -125,10 +122,10 @@ The Spatial Group-wise Enhance (SGE) module improves CNN performance by generati
 
 # 📃 Other Publications
 
-### [SM3Det: A Unified Model for Multi-Modal Remote Sensing Object Detection](https://arxiv.org/abs/2412.20665)
-**Preprint**, ***2024***  
-**Yuxuan Li**, Xiang Li, Yunheng Li, Yicheng Zhang, Yimian Dai, Qibin Hou, Ming-Ming Cheng, Jian Yang  
-[[**Paper**]](https://arxiv.org/abs/2412.20665)  
+### [Visual Instruction Pretraining for Domain-Specific Foundation Models](http://arxiv.org/abs/2509.17562)
+**Preprint**, ***2025***  
+**Yuxuan Li**, Yicheng Zhang, Wenhao Tang, Yimian Dai, Ming-Ming Cheng, Xiang Li\#, and Jian Yang\#
+[[**Paper**]](http://arxiv.org/abs/2509.17562)  
 
 ---
 
