@@ -130,7 +130,7 @@ The Spatial Group-wise Enhance (SGE) module improves CNN performance by generati
 ---
 
 ### [RSAR: Restricted State Angle Resolver and Rotated SAR Benchmark](https://arxiv.org/abs/2501.04440)
-**CVPR**, ***2024***  
+**CVPR**, ***2025***  
 Xin Zhang, Xue Yang, **Yuxuan Li**, Jian Yang, Ming-Ming Cheng, Xiang Li  
 [[**Paper**]](https://arxiv.org/abs/2501.04440)  
 
