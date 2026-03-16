@@ -40,7 +40,7 @@ The APF-GAN model improves GAN-based image segmentation, surpassing GauGAN and w
 
 ## Conference
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2024</div><img src='images/pub/AAAI_2026_SM3Det.png' alt="sym" width="350">
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div><img src='images/pub/AAAI_2026_SM3Det.png' alt="sym" width="350">
 </div></div>
 <div class='paper-box-text' markdown="1">
 
