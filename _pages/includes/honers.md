@@ -33,7 +33,7 @@
 <div class='paper-box-text' markdown="1">
 
 - **2025**, National Scholarship for Doctoral Students in 2025, 30,000 RMB bonus. 
-------
+
 </div>
 </div>
 
