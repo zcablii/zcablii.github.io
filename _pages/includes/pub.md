@@ -122,6 +122,20 @@ The Spatial Group-wise Enhance (SGE) module improves CNN performance by generati
 
 # 📃 Other Publications
 
+### [Unifying Heterogeneous Multi-Modal Remote Sensing Detection Via Language-Pivoted Pretraining](https://arxiv.org/abs/2603.01758)
+**Preprint**, ***2026***  
+**Yuxuan Li**, Yuming Chen, Yunheng Li, Ming-Ming Cheng, Xiang Li\#, and Jian Yang\#
+[[**Paper**]](https://arxiv.org/abs/2603.01758)  
+
+---
+
+### [CrystaL: Spontaneous Emergence of Visual Latents in MLLMs](https://arxiv.org/abs/2602.20980)
+**Preprint**, ***2026***  
+Yang Zhang, Danyang Li, **Yuxuan Li\#**, Xin Zhang, Tianyu Xie, Mingming Cheng, Xiang Li\#
+[[**Paper**]](https://arxiv.org/abs/2602.20980)  
+
+---
+
 ### [Visual Instruction Pretraining for Domain-Specific Foundation Models](http://arxiv.org/abs/2509.17562)
 **Preprint**, ***2025***  
 **Yuxuan Li**, Yicheng Zhang, Wenhao Tang, Yimian Dai, Ming-Ming Cheng, Xiang Li\#, and Jian Yang\#
@@ -140,6 +154,13 @@ Xin Zhang, Xue Yang, **Yuxuan Li**, Jian Yang, Ming-Ming Cheng, Xiang Li
 **ICCV**, ***2025***  
 Yunheng Li, **Yuxuan Li**, Quansheng Zeng, Wenhai Wang, Qibin Hou, Ming-Ming Cheng  
 [[**Paper**]](https://arxiv.org/abs/2412.06244)  
+
+---
+
+### [WOW-Seg: A Word-free Open World Segmentation Model](https://openreview.net/forum?id=AyJPSnE1bq)
+**Preprint**, ***2026***  
+Danyang Li, Tianhao Wu, Bin Lin, Zhenyuan Chen, Yang Zhang, **Yuxuan Li**, Ming-Ming Cheng, Xiang Li
+[[**Paper**]](https://openreview.net/forum?id=AyJPSnE1bq)  
 
 ---
 

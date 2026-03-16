@@ -28,6 +28,15 @@
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image' style="text-align: right;"><div><div class="badge"></div><img src='images/awd/25_national.png' alt="sym" width="200"   >
+</div></div>
+<div class='paper-box-text' markdown="1">
+
+- **2025**, National Scholarship for Doctoral Students in 2025, 30,000 RMB bonus. 
+------
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image' style="text-align: right;"><div><div class="badge"></div><img src='images/awd/2022_IACC_s2.jpg' alt="sym" width="200"   >
 </div></div>
 <div class='paper-box-text' markdown="1">
