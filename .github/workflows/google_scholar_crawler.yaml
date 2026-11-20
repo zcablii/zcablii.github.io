@@ -28,7 +28,9 @@ jobs:
         with:
           python-version: '3.12'
       - name: Fetch current Google Scholar counts
-        run: python google_scholar_crawler/refresh.py --output /tmp/scholar-results
+        run: |
+          node google_scholar_crawler/fetch-profile.mjs /tmp/scholar-profile.html
+          python google_scholar_crawler/refresh.py --html /tmp/scholar-profile.html --output /tmp/scholar-results
       - name: Publish badge data
         run: |
           git fetch origin google-scholar-stats
