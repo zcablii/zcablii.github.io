@@ -1,0 +1,82 @@
+{
+  "updated": "2026-11-20T06:18:25.564998+00:00",
+  "source": "https://scholar.google.com/citations?user=vKnUqmMAAAAJ&hl=en&pagesize=100",
+  "totals": {
+    "citations": 2699,
+    "h_index": 14
+  },
+  "publications": {
+    "hopd": {
+      "title": "HOPD: Historical On-Policy Distillation for SAR MLLM Continual Learning",
+      "status": "pending",
+      "citations": null,
+      "scholar_url": "https://scholar.google.com/scholar?q=%22HOPD%3A%20Historical%20On-Policy%20Distillation%20for%20SAR%20MLLM%20Continual%20Learning%22"
+    },
+    "sarvia": {
+      "title": "SARVIA: Fast-Adapting the Strong SAR Foundation Models That Are Already in Your MLLMs",
+      "status": "pending",
+      "citations": null,
+      "scholar_url": "https://scholar.google.com/scholar?q=%22SARVIA%3A%20Fast-Adapting%20the%20Strong%20SAR%20Foundation%20Models%20That%20Are%20Already%20in%20Your%20MLLMs%22"
+    },
+    "vitp": {
+      "title": "Visual Instruction Pretraining for Domain-Specific Foundation Models",
+      "status": "indexed",
+      "citations": 14,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vKnUqmMAAAAJ&pagesize=100&citation_for_view=vKnUqmMAAAAJ:r0BpntZqJG4C"
+    },
+    "language-pivot": {
+      "title": "Unifying Heterogeneous Multi-Modal Remote Sensing Detection Via Language-Pivoted Pretraining",
+      "status": "indexed",
+      "citations": 3,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vKnUqmMAAAAJ&pagesize=100&citation_for_view=vKnUqmMAAAAJ:hMod-77fHWUC"
+    },
+    "sm3det": {
+      "title": "SM3Det: A Unified Model for Multi-Modal Remote Sensing Object Detection",
+      "status": "indexed",
+      "citations": 67,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vKnUqmMAAAAJ&pagesize=100&citation_for_view=vKnUqmMAAAAJ:4JMBOYKVnBMC"
+    },
+    "slip-rs": {
+      "title": "SLIP-RS: Structured-Attribute Language-Image Pre-training for Remote Sensing Object Detection",
+      "status": "indexed",
+      "citations": 2,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vKnUqmMAAAAJ&pagesize=100&citation_for_view=vKnUqmMAAAAJ:ns9cj8rnVeAC"
+    },
+    "lsknet": {
+      "title": "LSKNet: A Foundation Lightweight Backbone for Remote Sensing",
+      "status": "indexed",
+      "citations": 325,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vKnUqmMAAAAJ&pagesize=100&citation_for_view=vKnUqmMAAAAJ:TQgYirikUcIC"
+    },
+    "densevlm": {
+      "title": "Unbiased Region-Language Alignment for Open-Vocabulary Dense Prediction",
+      "status": "indexed",
+      "citations": 20,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vKnUqmMAAAAJ&pagesize=100&citation_for_view=vKnUqmMAAAAJ:e5wmG9Sq2KIC"
+    },
+    "sardet-100k": {
+      "title": "SARDet-100K: Towards an Open-Source Benchmark and Toolkit for Large-Scale SAR Object Detection",
+      "status": "indexed",
+      "citations": 231,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vKnUqmMAAAAJ&pagesize=100&citation_for_view=vKnUqmMAAAAJ:hC7cP41nSMkC"
+    },
+    "apf-gan": {
+      "title": "APF-GAN: Exploring Asymmetric Pre-training and Fine-tuning Strategy for Conditional GANs",
+      "status": "indexed",
+      "citations": 2,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vKnUqmMAAAAJ&pagesize=100&citation_for_view=vKnUqmMAAAAJ:_FxGoFyzp5QC"
+    },
+    "lsknet-iccv": {
+      "title": "Large Selective Kernel Network for Remote Sensing Object Detection",
+      "status": "indexed",
+      "citations": 1338,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vKnUqmMAAAAJ&pagesize=100&citation_for_view=vKnUqmMAAAAJ:J_g5lzvAfSwC"
+    },
+    "sge": {
+      "title": "Spatial Group-Wise Enhance: Enhancing Semantic Feature Learning in CNN",
+      "status": "indexed",
+      "citations": 66,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=vKnUqmMAAAAJ&pagesize=100&citation_for_view=vKnUqmMAAAAJ:k_IJM867U9cC"
+    }
+  }
+}
