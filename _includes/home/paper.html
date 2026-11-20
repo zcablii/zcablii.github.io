@@ -1,0 +1,16 @@
+<article class="publication{% if paper.review %} review-paper{% endif %}{% if paper.image %} with-image{% endif %}" id="paper-{{ paper.id }}">
+  {% if paper.image %}<a class="paper-image" href="/{{ paper.image }}" target="_blank" rel="noopener" aria-label="Enlarge illustration from {{ paper.title | escape }}"><img src="/{{ paper.image }}" alt="{% if paper.figure %}Figure {{ paper.figure }}{% else %}Paper illustration{% endif %} from {{ paper.title | escape }}" loading="lazy" width="240" height="150"></a>{% endif %}
+  <div class="paper-content">
+    <div class="paper-meta">
+      {% if paper.review %}<span class="venue review">Under review</span><span>{{ paper.year }} · {{ paper.role }}</span>{% else %}<span class="venue">{{ paper.venue }}</span>{% if paper.highlight %}<span class="highlight"><span aria-hidden="true">{{ paper.highlight_icon }}</span> {{ paper.highlight }}</span>{% endif %}<span>{{ paper.role }}</span>{% endif %}
+    </div>
+    <h4><a href="{{ paper.paper }}">{{ paper.title }}</a></h4>
+    {% if paper.authors %}<p class="authors">{{ paper.authors }}</p>{% endif %}
+    <p>{{ paper.summary }}</p>
+    <div class="paper-links"><a href="{{ paper.paper }}">{% if paper.review %}arXiv{% else %}Paper{% endif %}</a>{% if paper.code %}<a href="{{ paper.code }}">{% if paper.code_label %}{{ paper.code_label }}{% else %}Code{% endif %}</a>{% endif %}{% if paper.bibtex %}<a href="/{{ paper.bibtex }}">BibTeX</a>{% endif %}</div>
+    <div class="paper-metrics">
+      {% if paper.github_repo %}<a href="{{ paper.code }}" aria-label="GitHub stars for {{ paper.title | escape }}"><img src="https://img.shields.io/github/stars/{{ paper.github_repo }}?style=flat-square&amp;logo=github&amp;label=stars&amp;color=174d67&amp;cacheSeconds=3600" alt="GitHub stars" loading="lazy" height="20"></a>{% endif %}
+      <a href="{{ paper.scholar_url | escape }}" aria-label="Google Scholar citations for {{ paper.title | escape }}"><img src="https://img.shields.io/endpoint?url={{ paper.citation_endpoint | url_encode }}&amp;style=flat-square&amp;cacheSeconds=3600" alt="Google Scholar citations" loading="lazy" height="20"></a>
+    </div>
+  </div>
+</article>

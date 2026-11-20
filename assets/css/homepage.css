@@ -628,6 +628,65 @@ h2 {
 
 }
 
+.featured-honor {
+  display: flex;
+  align-items: center;
+  gap: .85rem;
+  padding: 1rem 1.15rem;
+  margin: 1.25rem 0 1.5rem;
+  background: #fff8e8;
+  border: 1px solid #ead8a6;
+  border-left: 4px solid #b58323;
+  border-radius: 4px;
+}
+.featured-honor .honor-icon {
+  font-size: 1.8rem;
+  line-height: 1;
+}
+.featured-honor strong {
+  display: block;
+  font-size: 1rem;
+  color: #725016;
+}
+.featured-honor div > span {
+  display: block;
+  font-size: .875rem;
+  color: #756349;
+}
+.highlight {
+  display: inline-flex;
+  align-items: center;
+  gap: .3rem;
+  background: #fff8e8;
+  border: 1px solid #ead8a6;
+  border-radius: 4px;
+  padding: .1rem .45rem;
+}
+.paper-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .5rem;
+  margin-top: .85rem;
+}
+.paper-metrics a {
+  display: inline-flex;
+  min-height: 24px;
+  align-items: center;
+}
+.paper-metrics img {
+  display: block;
+  height: 20px;
+  width: auto;
+  max-width: 100%;
+}
+.paper-image {
+  cursor: zoom-in;
+}
+.paper-image img {
+  height: auto;
+  max-height: 190px;
+}
 @media print {
   .site-header,.profile-note,.skip-link {
   display:none

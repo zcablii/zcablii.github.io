@@ -4,25 +4,11 @@
   <p class="section-note">Selected first- and second-author works.</p>
   <h3 class="group-heading">Under review</h3>
   {% for paper in site.data.publications %}{% if paper.review %}
-  <article class="publication review-paper">
-    <div class="paper-meta"><span class="venue review">Under review</span><span>{{ paper.year }} · {{ paper.role }}</span></div>
-    <h4>{% if paper.paper %}<a href="{{ paper.paper }}">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}</h4>
-    <p>{{ paper.summary }}</p>
-    {% if paper.paper or paper.code %}<div class="paper-links">{% if paper.paper %}<a href="{{ paper.paper }}">Preprint</a>{% endif %}{% if paper.code %}<a href="{{ paper.code }}">Code</a>{% endif %}</div>{% endif %}
-  </article>
+  {% include home/paper.html %}
   {% endif %}{% endfor %}
   <h3 class="group-heading">Conference &amp; journal papers</h3>
   {% for paper in site.data.publications %}{% unless paper.review %}
-  <article class="publication{% if paper.image %} with-image{% endif %}">
-    {% if paper.image %}<a class="paper-image" href="{{ paper.paper }}" tabindex="-1" aria-hidden="true"><img src="/{{ paper.image }}" alt="" loading="lazy" width="240" height="150"></a>{% endif %}
-    <div class="paper-content">
-      <div class="paper-meta"><span class="venue">{{ paper.venue }}</span>{% if paper.highlight %}<span class="highlight">{{ paper.highlight }}</span>{% endif %}<span>{{ paper.role }}</span></div>
-      <h4><a href="{{ paper.paper }}">{{ paper.title }}</a></h4>
-      {% if paper.authors %}<p class="authors">{{ paper.authors }}</p>{% endif %}
-      <p>{{ paper.summary }}</p>
-      <div class="paper-links"><a href="{{ paper.paper }}">Paper</a>{% if paper.code %}<a href="{{ paper.code }}">Code</a>{% endif %}{% if paper.bibtex %}<a href="/{{ paper.bibtex }}">BibTeX</a>{% endif %}</div>
-    </div>
-  </article>
+  {% include home/paper.html %}
   {% endunless %}{% endfor %}
   <details class="additional-papers"><summary>Additional publications &amp; collaborations</summary><ul>{% for paper in site.data.collaborations %}<li><a href="{{ paper.url }}">{{ paper.title }}</a><span>{{ paper.venue }}</span></li>{% endfor %}</ul></details>
 </section>
