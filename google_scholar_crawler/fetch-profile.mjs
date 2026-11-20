@@ -6,6 +6,7 @@ const destination = process.argv[2];
 if (!destination) throw new Error('Pass an output HTML path');
 const hosts = ['scholar.google.com', 'scholar.google.com.sg', 'scholar.google.com.hk'];
 let lastError;
+let succeeded = false;
 for (const host of hosts) {
   const url = `https://${host}/citations?user=vKnUqmMAAAAJ&hl=en&pagesize=100`;
   try {
@@ -23,10 +24,11 @@ for (const host of hosts) {
     }
     await writeFile(destination, html, 'utf8');
     console.log(`Fetched public Scholar profile from ${host}`);
-    process.exit(0);
+    succeeded = true;
+    break;
   } catch (error) {
     lastError = error;
     console.warn(error.message);
   }
 }
-throw lastError;
+if (!succeeded) throw lastError;

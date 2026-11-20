@@ -24,9 +24,14 @@ the surrounding page text and captions. Existing illustrations were retained.
   its original `implus/PytorchInsight` URL is unavailable.
 - `google_scholar_crawler/refresh.py` fetches the public Google Scholar profile
   and matches publications by Scholar ID, falling back to normalized titles.
-- The `Get Citation Data` workflow runs every six hours, on relevant source
-  changes, and through manual dispatch. It publishes `metrics.json` and the
-  `badges/*.json` endpoints to the `google-scholar-stats` branch.
+- The data publisher writes `metrics.json` and `badges/*.json` endpoints to the
+  `google-scholar-stats` branch. The manual `Get Citation Data` workflow is
+  retained, but Scholar currently rejects hosted-runner requests with HTTP 403.
+  Its schedule is disabled to avoid repeated failed jobs.
+- `update-local.mjs` refreshes and publishes the same data using the device's
+  network. It takes absolute paths to a Python executable and a clean checkout
+  of the citation-data branch. A device schedule can run this command once the
+  owner selects that update method.
 - Citation badges link to each paper's Scholar entry; papers not yet indexed
   link to a title search and show `pending`, never an invented zero.
 - Shields.io caches the badge responses. Scholar updates and GitHub scheduling
