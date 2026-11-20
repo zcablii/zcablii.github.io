@@ -1,0 +1,120 @@
+[
+  {
+    "title": "HOPD: Historical On-Policy Distillation for SAR MLLM Continual Learning",
+    "review": true,
+    "year": "Nov 2026",
+    "role": "First author",
+    "summary": "Historical on-policy distillation for continual SAR visual question answering, using source-acquisition LoRA states as persistent teachers to adapt MLLMs across evolving sensors and regions while mitigating catastrophic forgetting."
+  },
+  {
+    "title": "SARVIA: Fast-Adapting the Strong SAR Foundation Models That Are Already in Your MLLMs",
+    "review": true,
+    "year": "Nov 2026",
+    "role": "First author",
+    "summary": "Self-supervised post-pretraining that specializes the transferable visual representations in general-purpose MLLMs into SAR backbones in 2 GPU-hours."
+  },
+  {
+    "title": "Visual Instruction Pretraining for Domain-Specific Foundation Models",
+    "review": true,
+    "year": "Preprint 2025",
+    "role": "First author",
+    "paper": "https://arxiv.org/abs/2509.17562",
+    "code": "https://github.com/NK-JittorCV/ViTP",
+    "summary": "Instruction-driven pretraining that transfers high-level MLLM reasoning into perceptual feature learning for remote sensing and medical imaging.",
+    "authors": "<strong>Yuxuan Li</strong>, Yicheng Zhang, Wenhao Tang, Yimian Dai, Ming-Ming Cheng, Xiang Li, and Jian Yang"
+  },
+  {
+    "title": "Unifying Heterogeneous Multi-Modal Remote Sensing Detection Via Language-Pivoted Pretraining",
+    "venue": "ICML 2026",
+    "role": "First author",
+    "paper": "https://arxiv.org/abs/2603.01758",
+    "code": "https://github.com/zcablii/SM3Det",
+    "authors": "<strong>Yuxuan Li</strong>, Yuming Chen, Yunheng Li, Ming-Ming Cheng, Xiang Li, and Jian Yang",
+    "summary": "Language-pivoted pretraining that decouples cross-sensor modality alignment from task learning for heterogeneous multi-modal remote sensing object detection."
+  },
+  {
+    "title": "SM3Det: A Unified Model for Multi-Modal Remote Sensing Object Detection",
+    "venue": "AAAI 2026",
+    "highlight": "Oral",
+    "role": "First author",
+    "paper": "https://arxiv.org/abs/2412.20665",
+    "code": "https://github.com/zcablii/SM3Det",
+    "bibtex": "resources/bibtex/AAAI_2026_SM3Det.txt",
+    "image": "images/pub/AAAI_2026_SM3Det.png",
+    "authors": "<strong>Yuxuan Li</strong>, Xiang Li, Yunheng Li, Yicheng Zhang, Yimian Dai, Qibin Hou, Ming-Ming Cheng, and Jian Yang",
+    "summary": "A unified sparse Mixture-of-Experts model for optical, SAR, and infrared object detection, with dynamic optimization across modalities and tasks."
+  },
+  {
+    "title": "SLIP-RS: Structured-Attribute Language-Image Pre-training for Remote Sensing Object Detection",
+    "venue": "ICML 2026",
+    "role": "Second author",
+    "paper": "https://arxiv.org/abs/2605.23144",
+    "code": "https://github.com/facias914/SLIP-RS",
+    "summary": "Structured-attribute vision–language pretraining that grounds fine-grained physical and geometric attributes for remote sensing object detection and cross-dataset transfer.",
+    "authors": "Chenxu Wang, <strong>Yuxuan Li</strong>, Yunheng Li, Xiang Li, Jingyuan Xia, and Qibin Hou"
+  },
+  {
+    "title": "LSKNet: A Foundation Lightweight Backbone for Remote Sensing",
+    "venue": "IJCV 2025",
+    "highlight": "ESI Highly Cited Paper",
+    "role": "First author",
+    "paper": "https://link.springer.com/article/10.1007/s11263-024-02247-9",
+    "code": "https://github.com/zcablii/LSKNet",
+    "bibtex": "resources/bibtex/IJCV_2024_LSKNet.txt",
+    "image": "images/pub/IJCV_2024_LSKNet.png",
+    "authors": "<strong>Yuxuan Li</strong>, Xiang Li, Yimian Dai, Qibin Hou, Li Liu, Yongxiang Liu, Ming-Ming Cheng, and Jian Yang",
+    "summary": "A lightweight remote sensing backbone with dynamically adjustable large spatial receptive fields to capture contextual dependencies across geographic scenes."
+  },
+  {
+    "title": "Unbiased Region-Language Alignment for Open-Vocabulary Dense Prediction",
+    "venue": "ICCV 2025",
+    "role": "Second author",
+    "paper": "https://arxiv.org/abs/2412.06244",
+    "code": "https://github.com/HVision-NKU/DenseVLM",
+    "authors": "Yunheng Li, <strong>Yuxuan Li</strong>, Quansheng Zeng, Wenhai Wang, Qibin Hou, and Ming-Ming Cheng",
+    "summary": "Region–language alignment that addresses semantic bias for open-vocabulary detection and segmentation on unseen categories."
+  },
+  {
+    "title": "SARDet-100K: Towards an Open-Source Benchmark and Toolkit for Large-Scale SAR Object Detection",
+    "venue": "NeurIPS 2024",
+    "highlight": "Spotlight",
+    "role": "First author",
+    "paper": "https://arxiv.org/abs/2403.06534",
+    "code": "https://github.com/zcablii/SARDet_100K",
+    "bibtex": "resources/bibtex/NeurIPS_2024_Sardet.txt",
+    "image": "images/pub/NeurIPS_2024_SARDet-100K.png",
+    "authors": "<strong>Yuxuan Li</strong>, Xiang Li, Weijie Li, Qibin Hou, Li Liu, Ming-Ming Cheng, and Jian Yang",
+    "summary": "A large-scale, multi-source SAR object detection benchmark and multi-stage pretraining toolkit bridging optical-to-radar domain disparities."
+  },
+  {
+    "title": "APF-GAN: Exploring Asymmetric Pre-training and Fine-tuning Strategy for Conditional GANs",
+    "venue": "CVMJ 2024",
+    "role": "First author",
+    "paper": "https://link.springer.com/article/10.1007/s41095-023-0357-1",
+    "code": "https://github.com/zcablii/APF-GAN-jittor",
+    "image": "images/pub/APF-GAN.png",
+    "authors": "<strong>Yuxuan Li</strong>, Lingfeng Yang, and Xiang Li",
+    "summary": "Asymmetric pretraining and fine-tuning for semantic-guided image synthesis; champion solution of the 2nd Jittor AI Global Challenge."
+  },
+  {
+    "title": "Large Selective Kernel Network for Remote Sensing Object Detection",
+    "venue": "ICCV 2023",
+    "role": "First author",
+    "paper": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_Large_Selective_Kernel_Network_for_Remote_Sensing_Object_Detection_ICCV_2023_paper.html",
+    "code": "https://github.com/zcablii/LSKNet",
+    "bibtex": "resources/bibtex/ICCV_2023_LSKNet.txt",
+    "image": "images/pub/ICCV_2023_LSKNet.png",
+    "authors": "<strong>Yuxuan Li</strong>, Qibin Hou, Zhaohui Zheng, Ming-Ming Cheng, Jian Yang, and Xiang Li",
+    "summary": "Dynamic large selective kernels for the wide variation in object scale and context in overhead imagery."
+  },
+  {
+    "title": "Spatial Group-Wise Enhance: Enhancing Semantic Feature Learning in CNN",
+    "venue": "ACCV 2022",
+    "role": "First author",
+    "paper": "https://openaccess.thecvf.com/content/ACCV2022/html/Li_Spatial_Group-wise_Enhance_Enhancing_Semantic_Feature_Learning_in_CNN_ACCV_2022_paper.html",
+    "bibtex": "resources/bibtex/ACCV_2022_SGE.txt",
+    "image": "images/pub/ACCV_2022_SGE.png",
+    "authors": "<strong>Yuxuan Li</strong>, Xiang Li, and Jian Yang",
+    "summary": "A lightweight attention module that uses local–global feature similarity within semantic groups to suppress background noise."
+  }
+]

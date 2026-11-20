@@ -7,7 +7,8 @@
 
 # Site Settings
 title                    : "Yuxuan Li"
-description              : ""
+description              : "Yuxuan Li — Postdoctoral Research Scientist at Singapore Management University. Earth observation foundation models, multimodal learning, and AI for scientific discovery."
+url                      : "https://zcablii.github.io"
 repository               : "zcablii/zcablii.github.io"
 google_scholar_stats_use_cdn : False
 
@@ -23,12 +24,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Yuxuan Li <br>&nbsp; (李宇轩)"
   avatar           : "images/bio/android-chrome-512x512.png"
-  bio              : "Ph.D. Student at Nankai Uni."
-  location         : "TianJin, China"
+  bio              : "Postdoctoral Research Scientist at Singapore Management University"
+  location         : "Singapore"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=vKnUqmMAAAAJ"
-  email            : "yuxuan.li.17@ucl.ac.uk"
+  email            : "yuxuan.li.17@alumni.ucl.ac.uk"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
